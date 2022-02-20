@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: red;
+  border: solid;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  border: solid;
+  padding: 15px;
+}
+
+.page-header {
+  display: flex;
+  border: solid;
+  padding: 15px;
+}
+
+.page-title {
+  display: flex;
+  border: solid;
+  padding: 15px;
+}
+
+.main-bullets {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  padding: 15px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
